@@ -1,0 +1,6 @@
+{{- $path := .File.Filename | strings.TrimPrefix hugo.WorkingDir | strings.TrimPrefix .File.FileInfo.Meta.Module.Dir -}}
+{{- return (partial "docs/text/template" (dict "Template" .Site.Params.BookEditLink "Context" (dict
+  "Site" .Site
+  "Page" .Page
+  "Path" $path
+)) | urls.JoinPath) -}}
