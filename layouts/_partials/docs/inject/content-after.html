@@ -1,0 +1,12 @@
+{{ if eq .Type "docs" }}
+{{ range $taxonomy, $_ := .Site.Taxonomies }}
+{{ with $terms := $.GetTerms $taxonomy }}
+<div class="text-small">
+    <span>{{ partial "docs/text/i18n" (title $taxonomy) }}:</span>
+    {{ range $n, $term := $terms }}{{ if $n }}, {{ end }}
+    <a href="{{ $term.RelPermalink }}">{{ $term.Title }}</a>
+    {{- end }}
+</div>
+{{ end }}
+{{ end }}
+{{ end }}

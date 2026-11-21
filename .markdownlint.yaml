@@ -1,0 +1,5 @@
+---
+# Alteration of rules for VS Code extension: DavidAnson.vscode-markdownlint
+MD025: false # Multiple Top Level Headings rule, triggers due to frontmatter title and markdown heading.
+MD033: false # Inline HTML rule, triggers if raw HTML within file.
+MD013: false # Length limit rule, triggers if line is over 80 characters long, don't want to abide by this rule.
