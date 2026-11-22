@@ -6,7 +6,7 @@ weight: 1
 
 ---
 
-The write-ups on **AGFTAS** are something I can be proud of and something you can read knowing it was written by a real person with real personal experience.
+The write-ups on **AGFTAS** are written by a real person with real passion for IT who has real experience and that is something I am proud of. It means you can read any of these guides knowing its written with thought and care.
 
 # Criteria
 
@@ -18,7 +18,7 @@ In an attempt to keep consistency and usability of guides, I have set these crit
 
 - ## **Quality not Quantity**
 
-    Write from own personal experience as a **person** who works in IT.
+    Write from my own personal experience as a person who has quite a few years of experience in IT.
 
 - ## **Beginner Friendly**
 
