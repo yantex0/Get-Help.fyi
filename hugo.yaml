@@ -44,9 +44,6 @@ menu:
     - name: "Blog"
       url: "/posts/"
       weight: 10
-    - name: "Tags"
-      url: "/tags/"
-      weight: 15
     - name: "Single Page"
       url: "/docs/"
       weight: 20
