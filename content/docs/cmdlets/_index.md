@@ -1,6 +1,6 @@
 ---
 title: "Cmdlets"
-weight: 2
+weight: 3
 params:
   bookCollapseSection: true
 ---

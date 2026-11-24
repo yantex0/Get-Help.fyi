@@ -28,21 +28,21 @@ markup:
         block: true
         title: true
   tableOfContents:
-    startLevel: 1
+    startLevel: 2
   highlight:
     style: base16-snazzy
 
 menu:
   home:
     - name: "Documentation"
-      pageRef: "/docs/getting-started/introduction"
+      pageRef: "/docs/about"
       weight: 10
     - name: "My Github"
       url: "https://github.com/yantex0"
       weight: 20
   after:
-    - name: "Blog"
-      url: "/posts/"
+    - name: "About"
+      url: "/docs/about"
       weight: 10
     - name: "Single Page"
       url: "/docs/"

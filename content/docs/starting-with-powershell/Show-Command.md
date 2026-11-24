@@ -7,7 +7,7 @@ weight: 0
 
 # Show-Command
 
-This is a fairly recent addition to my list of memorised cmdlets, I genuinely wish this one of the first cmdlets I ever learnt years ago! Run `Show-Command` and see what it can do for you! It is like a combination of [`Get-Help`](get-help.md) and [`Get-Command`](get-command.md) but in a nice easy to use interface!
+This is a fairly recent addition to my list of memorised cmdlets, I genuinely wish this one of the first cmdlets I ever learnt years ago! Run `Show-Command` and see what it can do for you! It is like a combination of [`Get-Help`](..\cmdlets\get-help.md) and [`Get-Command`](get-command.md) but in a nice easy to use interface!
 
 **Basic Uses:** This cmdlet allows for finding other cmdlets and getting help with those cmdlets.
 **Intermediate:** You can use it to construct and run cmdlets with their parameters.
