@@ -1,7 +1,6 @@
 ---
 title: "Update-Help"
 tags: ["cmdlet"]
-description: "Downloads up-to-date help files for the Get-Help cmdlet."
 ---
 
 # Update-Help

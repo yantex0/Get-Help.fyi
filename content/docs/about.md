@@ -1,7 +1,9 @@
 ---
 title: "About"
 weight: 1
-bookHidden: true
+params:
+    bookHidden: true
+    bookToC: false
 ---
 
 # About

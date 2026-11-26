@@ -2,7 +2,7 @@ baseURL: http://0.0.0.0:1313/
 title: Get-Help.fyi
 theme: hugo-book
 
-copyright: "This is a copyright placeholder"
+copyright: "With great Power(Shell) comes great resposibility."
 
 # Book configuration
 disablePathToLower: true
@@ -57,12 +57,9 @@ module:
     - source: content
       target: content
       files:
-        - "! /docs/01-getting-started/**"
         - "! /docs/02-starting-with-powershell/**"
         - "! /docs/03-cmdlets/**"
         - "**"
-    - source: content/docs/01-getting-started
-      target: content/docs/getting-started
     - source: content/docs/02-starting-with-powershell
       target: content/docs/starting-with-powershell
     - source: content/docs/03-cmdlets

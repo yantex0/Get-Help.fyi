@@ -1,0 +1,17 @@
+<script>
+  document.querySelectorAll(".markdown .highlight").forEach((block) => {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "copy-code-btn";
+    btn.textContent = "Copy";
+
+    btn.addEventListener("click", () => {
+      navigator.clipboard.writeText(block.querySelector("code").innerText).then(() => {
+        btn.textContent = "Copied!";
+        setTimeout(() => (btn.textContent = "Copy"), 2000);
+      });
+    });
+
+    block.appendChild(btn);
+  });
+</script>

@@ -1,7 +1,6 @@
 ---
 title: "Get-Command"
 tags: ["cmdlet"]
-description: "Used to find commands if you know ANYTHING about it."
 ---
 
 # Get-Command

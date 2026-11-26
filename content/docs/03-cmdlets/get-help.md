@@ -1,7 +1,6 @@
 ---
 title: "Get-Help"
 tags: ["cmdlet"]
-description: Use to well... Get help for other parts of PowerShell.
 ---
 
 # Get-Help

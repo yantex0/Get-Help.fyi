@@ -1,14 +1,15 @@
 ---
 title: "Show-Command"
 tags: ["cmdlet"]
-description: "Use this cmdlet to find other cmdlets, easily run cmdlets with their parameters or create a semi-custom GUI for your own function."
-weight: 0
+weight: 20
 ---
 
 # Show-Command
 
+---
+
 > [!NOTE]
-> I wish this one of the first cmdlets I ever learnt years ago! Run `Show-Command` and see what it can do for you! This is a cmdlet for all skill levels, it is a cmdlet you will certainly get value from.
+> I wish this one of the first cmdlets I ever learnt years ago! This is a cmdlet for all skill levels, you will certainly get value from it! Run `Show-Command` and see what it can do for you!
 
 ## Different Uses
 

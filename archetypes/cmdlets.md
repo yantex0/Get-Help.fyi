@@ -1,10 +1,15 @@
 ---
 title: "{{ .File.ContentBaseName | title }}"
 tags: ["cmdlet"]
-description: "Short one-line summary of what this cmdlet does."
+draft: true
 ---
 
 # {{ .File.ContentBaseName | title }}
+
+---
+
+> [!NOTE]
+> PERSONAL ANECDOTE/NOTE
 
 One-sentence plain-English summary of what the cmdlet does and when you'd use it.
 

@@ -1,15 +1,18 @@
 ---
 title: "Setup PowerShell Environment"
-weight: 2
-params:
-  bookFlatSection: true
+weight: 1
 ---
 
 # Setup PowerShell Environment
 
 ---
 
-## Install PowerShell
+> [!NOTE]
+> This is the absolute basics to get you started! Within 5 minutes (depending on your download speed) you will have PowerShell installed and have Windows Terminal setup!
+
+How to install Powershell and setting up Windows Terminal for it to open PowerShell as default.
+
+## Installing PowerShell
 
 The easiest way to install PowerShell is by downloading the latest release from the official Github repo:
 <https://github.com/PowerShell/PowerShell/releases/latest>
