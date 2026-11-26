@@ -5,7 +5,7 @@ layout: landing
 
 <div class="book-hero">
 
-# Get-Help for your Info // get-help.fyi {anchor=false}
+# Get-Help for your Info // Get-Help.fyi {anchor=false}
 
 Documentation for myself (and others?) about an assortment of things and stuff I have tinkered with mainly PowerShell though.
 

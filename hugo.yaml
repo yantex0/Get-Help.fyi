@@ -1,5 +1,5 @@
 baseURL: http://0.0.0.0:1313/
-title: AGFTAS
+title: Get-Help.fyi
 theme: hugo-book
 
 copyright: "This is a copyright placeholder"
@@ -18,7 +18,6 @@ outputs:
   page: ["html", "txt"]
   section: ["html", "txt"]
 
-# Needed for mermaid/katex shortcodes
 markup:
   goldmark:
     renderer:
@@ -51,7 +50,23 @@ menu:
       url: "https://github.com/yantex0"
       weight: 30
 
-  # before: []
+# The below is to allow naming the directories with names like '01-getting-started'
+# This is so they are easier to navigate in the file explorer
+module:
+  mounts:
+    - source: content
+      target: content
+      files:
+        - "! /docs/01-getting-started/**"
+        - "! /docs/02-starting-with-powershell/**"
+        - "! /docs/03-cmdlets/**"
+        - "**"
+    - source: content/docs/01-getting-started
+      target: content/docs/getting-started
+    - source: content/docs/02-starting-with-powershell
+      target: content/docs/starting-with-powershell
+    - source: content/docs/03-cmdlets
+      target: content/docs/cmdlets
 
 taxonomies:
   tag: tags

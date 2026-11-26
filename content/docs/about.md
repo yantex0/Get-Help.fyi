@@ -8,7 +8,7 @@ bookHidden: true
 
 ---
 
-The write-ups on **get-help.fyi** are written by a real person with real passion for IT who has real experience and that is something I am proud of. It means you can read any of these guides knowing its written with thought and care.
+The write-ups on **Get-Help.fyi** are written by a real person with real passion for IT who has real experience and that is something I am proud of. It means you can read any of these guides knowing its written with thought and care.
 
 ## Writing Criteria
 
