@@ -1,4 +1,4 @@
-baseURL            = "http://0.0.0.0:1313/"
+baseURL            = "https://get-help.fyi/"
 copyright          = "With great Power(Shell) comes great resposibility."
 disablePathToLower = true
 enableGitInfo      = true

@@ -1,0 +1,13 @@
+{
+  "name": "get-help-fyi",
+  "compatibility_date": "2026-11-27",
+  "assets": {
+    "directory": "./public",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  },
+  "routes": [
+    { "pattern": "get-help.fyi", "custom_domain": true },
+    { "pattern": "www.get-help.fyi", "custom_domain": true }
+  ]
+}
