@@ -71,10 +71,11 @@ tag = "tags"
 [params]
 BookBreadcrumbs    = true
 BookComments       = false
-BookEditLink       = "https://github.com/yantex0/Get-Help.fyi/edit/main/{{ .Path }}"
-BookLastChangeLink = "https://github.com/yantex0/Get-Help.fyi/commit/{{ .GitInfo.Hash }}"
+BookEditLink       = '{{ .Site.Params.BookRepo }}/edit/main/{{ replace .Path "\\" "/" }}'
+BookLastChangeLink = '{{ .Site.Params.BookRepo }}/commit/{{ .GitInfo.Hash }}'
 BookPageLinks      = true
 BookPortableLinks  = "warning"
+BookRepo           = "https://github.com/yantex0/Get-Help.fyi"
 BookSearch         = true
 BookSection        = "docs"
 BookServiceWorker  = 'precache'

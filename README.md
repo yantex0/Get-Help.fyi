@@ -1,12 +1,42 @@
-# Hugo-Book Starter
+# Get-Help.fyi
 
-This is a template repository to bootstrap your documentation site with Hugo-Book theme. It contains minimal configured from the start hugo site.
-1. To use this repository create a new repository from this template
-2. Run `git clone --recurse-submodules --shallow-submodules https://github.com/{org/user}/{repository}`
-3. Enter newly created directory `cd {repository}`
-4. Run hugo `hugo server`
+Source repository for **[Get-Help.fyi](https://get-help.fyi/)** — concise, beginner-friendly PowerShell documentation and guides written from hands-on IT experience.
 
-And you are ready to write docs!
+## Built With
 
-# Configuration options
-Please refer to [Hugo Documentation](https://gohugo.io/configuration/) and [Theme Source](https://github.com/alex-shpak/hugo-book/blob/main/exampleSite/hugo.yaml#L70)
+- **[Hugo](https://github.com/gohugoio/hugo)** — static site generator
+- **[Hugo Book](https://github.com/alex-shpak/hugo-book)** — documentation theme
+- **Cloudflare Workers Static Assets** — hosting and deployment
+
+## Running Locally
+
+### Prerequisites
+
+- [Hugo](https://gohugo.io/installation/) (extended edition recommended)
+- [Git](https://git-scm.com/)
+
+### Preview the Site
+
+```powershell
+git clone https://github.com/yantex0/Get-Help.fyi.git
+cd Get-Help.fyi
+hugo server -D
+```
+
+Then open `http://localhost:1313/` in your browser.
+
+## Repository Structure
+
+```text
+├── assets/              # Custom styles and icons
+├── content/docs/        # Markdown documentation pages
+├── layouts/             # Custom Hugo partial overrides
+├── static/              # Static files (including Cloudflare _headers)
+├── themes/hugo-book/    # Hugo Book theme
+├── hugo.toml            # Hugo site configuration
+└── wrangler.jsonc       # Cloudflare Workers Static Assets configuration
+```
+
+## Contributing
+
+Spotted a typo, broken link, or something that could be clearer? Feel free to open an issue or submit a pull request.
