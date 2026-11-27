@@ -25,9 +25,9 @@ Show-Command
 
 ## Notes
 
-* also allows for creating an interface for other users (or yourself) to run custom scripts you have made.
+* It is like a combination of [`Get-Help`](/docs/cmdlets/Get-Help) and [`Get-Command`](/docs/cmdlets/Get-Command) but within a simple interface.
 * The interface is the same as the 'Show Command Add-On' from PowerShell ISE.
-* It is like a combination of [`Get-Help`](..\cmdlets\get-help.md) and [`Get-Command`](..\cmdlets\get-command.md) but within a simple interface.
+* `Show-Command` allows for creating an interface for other users (or yourself) to run custom scripts you have made.
 
 ## See Also
 

@@ -1,6 +1,8 @@
 ---
 title: "Update-Help"
 tags: ["cmdlet"]
+params:
+    bookToC: false
 ---
 
 # Update-Help

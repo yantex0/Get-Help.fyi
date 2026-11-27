@@ -5,12 +5,12 @@ layout: landing
 
 <div class="book-hero">
 
-# Get-Help for your Info // Get-Help.fyi {anchor=false}
+# Get-Help.fyi {anchor=false}
 
-Documentation for myself (and others?) about an assortment of things and stuff I have tinkered with mainly PowerShell though.
+Documentation and guides about PowerShell and maybe other things I have tinkered with as well.
 
-{{<button href="/docs/about">}}Introduction{{</button>}}
+{{<button href="/docs/starting-with-powershell/overview">}}Starting with PowerShell{{</button>}}
 
-{{<button href="/docs/starting-with-powershell">}}Starting with PowerShell{{</button>}}
+{{<button href="/docs/site-overview/guide-assumptions">}}Guide Assumptions{{</button>}}
 
 </div>

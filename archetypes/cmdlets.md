@@ -13,8 +13,6 @@ draft: true
 
 One-sentence plain-English summary of what the cmdlet does and when you'd use it.
 
-**Aliases:** `none` *(or list e.g. `gci`, `dir`, `ls`)*
-
 ## Usage
 
 ```powershell

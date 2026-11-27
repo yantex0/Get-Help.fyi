@@ -2,7 +2,6 @@
 title: "Cmdlets"
 weight: 3
 params:
-  bookCollapseSection: true
+  bookCollapseSection: false
+  bookIcon: array
 ---
-
-# Cmdlets

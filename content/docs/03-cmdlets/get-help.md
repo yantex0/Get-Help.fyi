@@ -1,6 +1,8 @@
 ---
 title: "Get-Help"
 tags: ["cmdlet"]
+params:
+    bookToC: false
 ---
 
 # Get-Help
@@ -17,11 +19,12 @@ Get-Help "<Cmdlet-Name>"
 
 | Parameter | Description |
 | :--- | :--- |
-| `-Examples` | Provides examples of how to use the cmdlet you are seeking help with. **(See Notes section below)** |
+| `-Examples` | Provides examples of how to use the cmdlet you are seeking help with. |
 
 ## Notes
 
-- To get the most out `Get-Help` you can use the [`Update-Help`](update-help.md) cmdlet to download updated help files.
+- To get the most out this cmdlet you can use the [`Update-Help`](update-help.md) cmdlet to download updated help files.
+  - As an example, the `-example` parameter won't work until `Update-Help` is run.
 
 ## See Also
 

@@ -1,11 +1,13 @@
 ---
 title: "Get-Command"
 tags: ["cmdlet"]
+params:
+    bookToC: false
 ---
 
 # Get-Command
 
-**Note:** This used to be my go-to cmdlet to find cmdlets but since learning about [Show-Command](show-command.md) I just use  that, much easier.
+**Note:** This used to be my go-to cmdlet to find cmdlets but since learning about [Show-Command](/docs/starting-with-powershell/Show-Command.md) I just use  that, much easier.
 
 Used to find commands if you know ANYTHING about it.
 
@@ -35,4 +37,4 @@ Get-Command "<Cmdlet-Name>"
 
 ## See Also
 
-- [Microsoft Docs: Get-Command](https://learn.microsoft.com/)
+- [Microsoft Docs: Get-Command](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/get-command)

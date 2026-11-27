@@ -1,0 +1,80 @@
+baseURL            = "http://0.0.0.0:1313/"
+copyright          = "With great Power(Shell) comes great resposibility."
+disablePathToLower = true
+enableGitInfo      = true
+theme              = "hugo-book"
+title              = "Get-Help.fyi"
+
+[outputFormats.txt]
+baseName    = "source"
+isPlainText = true
+mediaType   = "text/plain"
+
+[outputs]
+home    = ["html", "txt", "rss"]
+page    = ["html", "txt"]
+section = ["html", "txt"]
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.goldmark.parser.attribute]
+block = true
+title = true
+
+[markup.tableOfContents]
+startLevel = 2
+
+[markup.highlight]
+style = "base16-snazzy"
+
+[[menu.home]]
+name    = "Documentation"
+pageRef = "/docs/site-overview/guide-assumptions"
+weight  = 10
+
+[[menu.home]]
+name   = "My Github"
+url    = "https://github.com/yantex0"
+weight = 20
+
+[[menu.after]]
+name   = "Single Page"
+url    = "/docs/"
+weight = 20
+
+[[menu.after]]
+name   = "My Github"
+url    = "https://github.com/yantex0"
+weight = 30
+
+[[module.mounts]]
+files  = ["! /docs/01-site-overview/**", "! /docs/02-starting-with-powershell/**", "! /docs/03-cmdlets/**", "**"]
+source = "content"
+target = "content"
+
+[[module.mounts]]
+source = "content/docs/01-site-overview"
+target = "content/docs/site-overview"
+
+[[module.mounts]]
+source = "content/docs/02-starting-with-powershell"
+target = "content/docs/starting-with-powershell"
+
+[[module.mounts]]
+source = "content/docs/03-cmdlets"
+target = "content/docs/cmdlets"
+
+[taxonomies]
+tag = "tags"
+
+[params]
+BookBreadcrumbs   = true
+BookComments      = false
+BookPageLinks     = true
+BookPortableLinks = "warning"
+BookSearch        = true
+BookSection       = "docs"
+BookServiceWorker = false
+BookTheme         = "catppuccin-auto"
+BookToC           = true

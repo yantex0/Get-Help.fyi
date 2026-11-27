@@ -34,14 +34,14 @@ markup:
 menu:
   home:
     - name: "Documentation"
-      pageRef: "/docs/about"
+      pageRef: "docs/site-overview/assumptions-&-terminology"
       weight: 10
     - name: "My Github"
       url: "https://github.com/yantex0"
       weight: 20
   after:
     - name: "About"
-      url: "/docs/about"
+      url: "docs/site-overview/assumptions-&-terminology"
       weight: 10
     - name: "Single Page"
       url: "/docs/"
