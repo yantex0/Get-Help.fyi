@@ -1,5 +1,6 @@
 ---
-title: "Main Page"
+title: "Home"
+description: "Documentation and guides about PowerShell."
 layout: landing
 ---
 

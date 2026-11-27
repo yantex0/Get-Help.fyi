@@ -1,5 +1,5 @@
 baseURL            = "https://get-help.fyi/"
-copyright          = "With great Power(Shell) comes great resposibility."
+copyright          = "With great Power(Shell) comes great responsibility."
 disablePathToLower = true
 enableGitInfo      = true
 theme              = "hugo-book"
@@ -69,12 +69,14 @@ target = "content/docs/cmdlets"
 tag = "tags"
 
 [params]
-BookBreadcrumbs   = true
-BookComments      = false
-BookPageLinks     = true
-BookPortableLinks = "warning"
-BookSearch        = true
-BookSection       = "docs"
-BookServiceWorker = false
-BookTheme         = "catppuccin-auto"
-BookToC           = true
+BookBreadcrumbs    = true
+BookComments       = false
+BookEditLink       = "https://github.com/yantex0/Get-Help.fyi/edit/main/{{ .Path }}"
+BookLastChangeLink = "https://github.com/yantex0/Get-Help.fyi/commit/{{ .GitInfo.Hash }}"
+BookPageLinks      = true
+BookPortableLinks  = "warning"
+BookSearch         = true
+BookSection        = "docs"
+BookServiceWorker  = 'precache'
+BookTheme          = "catppuccin-auto"
+BookToC            = true
