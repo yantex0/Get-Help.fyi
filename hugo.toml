@@ -2,6 +2,8 @@ baseURL            = "https://get-help.fyi/"
 copyright          = "With great Power(Shell) comes great responsibility."
 disablePathToLower = true
 enableGitInfo      = true
+enableRobotsTXT    = true
+disableKinds       = ["taxonomy", "term"]
 theme              = "hugo-book"
 title              = "Get-Help.fyi"
 
@@ -34,7 +36,7 @@ pageRef = "/docs/site-overview/guide-assumptions"
 weight  = 10
 
 [[menu.home]]
-name   = "My Github"
+name   = "My GitHub"
 url    = "https://github.com/yantex0"
 weight = 20
 
@@ -44,7 +46,7 @@ url    = "/docs/"
 weight = 20
 
 [[menu.after]]
-name   = "My Github"
+name   = "My GitHub"
 url    = "https://github.com/yantex0"
 weight = 30
 
@@ -65,16 +67,13 @@ target = "content/docs/starting-with-powershell"
 source = "content/docs/03-cmdlets"
 target = "content/docs/cmdlets"
 
-[taxonomies]
-tag = "tags"
-
 [params]
 BookBreadcrumbs    = true
 BookComments       = false
 BookEditLink       = '{{ .Site.Params.BookRepo }}/edit/main/{{ replace .Path "\\" "/" }}'
 BookLastChangeLink = '{{ .Site.Params.BookRepo }}/commit/{{ .GitInfo.Hash }}'
 BookPageLinks      = true
-BookPortableLinks  = "warning"
+BookPortableLinks  = "error"
 BookRepo           = "https://github.com/yantex0/Get-Help.fyi"
 BookSearch         = true
 BookSection        = "docs"

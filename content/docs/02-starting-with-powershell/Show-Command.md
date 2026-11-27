@@ -1,6 +1,5 @@
 ---
 title: "Show-Command"
-tags: ["cmdlet"]
 weight: 20
 ---
 
@@ -9,7 +8,7 @@ weight: 20
 ---
 
 > [!NOTE]
-> I wish this one of the first cmdlets I ever learnt years ago! This is a cmdlet for all skill levels, you will certainly get value from it! Run `Show-Command` and see what it can do for you!
+> I wish this was one of the first cmdlets I ever learnt years ago! This is a cmdlet for all skill levels, you will certainly get value from it! Run `Show-Command` and see what it can do for you!
 
 ## Different Uses
 

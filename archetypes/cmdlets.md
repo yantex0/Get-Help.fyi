@@ -1,6 +1,5 @@
 ---
 title: "{{ .File.ContentBaseName | title }}"
-tags: ["cmdlet"]
 draft: true
 ---
 

@@ -5,7 +5,7 @@ params:
     bookToC: false
 ---
 
-# Documention about Documentation
+# Documentation about Documentation
 
 ---
 
@@ -24,7 +24,7 @@ Write based on my own years of experience in IT
 
 ### **2. Beginner Friendly**
 
-Keep language simple to allow the guides to be useable by nearly anyone
+Keep language simple to allow the guides to be usable by nearly anyone
 
 ### **3. Short and Sharp**
 
@@ -32,4 +32,4 @@ Keep guides short, easy to follow and low on filler whenever possible
 
 ### **4. Practical Information**
 
-Keep the write-ups practical and useable
+Keep the write-ups practical and usable

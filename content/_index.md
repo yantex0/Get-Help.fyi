@@ -10,7 +10,7 @@ layout: landing
 
 Documentation and guides about PowerShell and maybe other things I have tinkered with as well.
 
-{{<button href="/docs/starting-with-powershell/overview">}}Starting with PowerShell{{</button>}}
+{{<button href="/docs/starting-with-powershell/Overview">}}Starting with PowerShell{{</button>}}
 
 {{<button href="/docs/site-overview/guide-assumptions">}}Guide Assumptions{{</button>}}
 

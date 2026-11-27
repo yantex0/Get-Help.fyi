@@ -1,6 +1,5 @@
 ---
 title: "Overview"
-tags: ["cmdlet"]
 weight: 1
 ---
 
@@ -15,5 +14,5 @@ An assortment of guides, references and information that will be beneficial for 
 
 1. Cmdlets that will be useful immediately and throughout your PowerShell journey.
 2. [Installing PowerShell](/docs/starting-with-powershell/Setup-Powershell/#installing-powershell) (The [Guide Assumptions](/docs/site-overview/guide-assumptions) page explains what edition of PowerShell this refers to).
-3. [Setting up Windows terminal](/docs/starting-with-powershell/Setup-Powershell/#windows-terminal-setup).
+3. [Setting up Windows Terminal](/docs/starting-with-powershell/Setup-Powershell/#windows-terminal-setup).
 4. And more!

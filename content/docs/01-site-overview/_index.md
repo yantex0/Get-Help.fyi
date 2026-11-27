@@ -1,6 +1,6 @@
 ---
 title: "Site Overview"
-weight: 2
+weight: 1
 params:
   bookCollapseSection: true
   bookIcon: magnifyingglass

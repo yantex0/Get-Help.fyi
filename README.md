@@ -18,7 +18,7 @@ Source repository for **[Get-Help.fyi](https://get-help.fyi/)** — concise, beg
 ### Preview the Site
 
 ```powershell
-git clone https://github.com/yantex0/Get-Help.fyi.git
+git clone --recurse-submodules https://github.com/yantex0/Get-Help.fyi.git
 cd Get-Help.fyi
 hugo server -D
 ```

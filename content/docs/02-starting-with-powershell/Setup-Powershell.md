@@ -10,13 +10,13 @@ weight: 10
 > [!NOTE]
 > This is the absolute basics to get you started! Within 5 minutes (depending on your download speed) you will have PowerShell installed and have Windows Terminal setup!
 
-This page explains how to install Powershell and setting up Windows Terminal for it to open PowerShell as default.
+This page explains how to install PowerShell and set up Windows Terminal so it opens PowerShell by default.
 
 ## Installing PowerShell
 
 ---
 
-The easiest way to install PowerShell is by downloading the latest release from the official Github repo:
+The easiest way to install PowerShell is by downloading the latest release from the official GitHub repo:
 <https://github.com/PowerShell/PowerShell/releases/latest>
 
 Download the **.msixbundle** file from the releases page. Once downloaded, run the .msixbundle file to install PowerShell.
@@ -33,7 +33,7 @@ To set **Windows Terminal** as your default terminal application and set PowerSh
     1. Change **Default profile** to 'PowerShell'.
     1. Change **Default terminal application** to 'Windows Terminal'.
 
-**Optional** (Lets personalise your terminal!):
+**Optional** (Let's personalise your terminal!):
 
 1. On **Profiles** tab:
     1. Click **Color schemes**

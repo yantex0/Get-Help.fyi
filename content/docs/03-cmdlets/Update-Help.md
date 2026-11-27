@@ -1,13 +1,12 @@
 ---
 title: "Update-Help"
-tags: ["cmdlet"]
 params:
     bookToC: false
 ---
 
 # Update-Help
 
-Downloads up-to-date help files for the [`Get-Help`](get-help.md) cmdlet to use.
+Downloads up-to-date help files for the [`Get-Help`](Get-Help.md) cmdlet to use.
 
 ## Usage
 
